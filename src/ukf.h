@@ -67,6 +67,9 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  int cycle;
+
+  bool start;
 
   /**
    * Constructor
